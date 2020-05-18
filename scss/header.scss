@@ -1,9 +1,9 @@
 .d-header {
-  border-radius: 0 0 37px 37px;
+  border-radius: 0 0 0px 0px;
   box-shadow: none;
   padding: 0.5em 0;
   .d-icon {
-    color: $header_primary;
+    color: $secondary;
   }
   .icon {
     padding: 0.5em;
@@ -44,7 +44,7 @@ div.menu-links-header .menu-links-row {
     }
     &:focus,
     &:hover {
-      background: #059a7f;
+      background: #263238;
       border-radius: 10px 10px 0 0;
       border-color: transparent;
       color: $gold;
