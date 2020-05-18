@@ -11,7 +11,7 @@
 // global
 .alert.alert-info {
   background: $sand;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .alert .close {
@@ -69,9 +69,9 @@ input[type="color"] {
 .signup-cta.alert.alert-info .btn:not(.btn-primary) {
   @include btn(
     $text-color: $secondary,
-    $bg-color: $night,
+    $bg-color: $quaternary,
     $icon-color: $secondary,
-    $hover-bg-color: darken($night, 5%),
+    $hover-bg-color: darken($quaternary, 5%),
     $hover-icon-color: $secondary
   );
   transition: top 0.25s;
@@ -82,8 +82,8 @@ input[type="color"] {
     top: 3px;
   }
   padding: 0.75em 1em;
-  border-radius: 25px/19px;
-  box-shadow: 0 4px 0 0 $dark_night;
+  border-radius: 0;
+  box-shadow: 0 4px 0 0 $quaternary;
 }
 
 .btn-primary {
@@ -101,7 +101,7 @@ input[type="color"] {
     top: 3px;
   }
   padding: 0.75em 1em;
-  border-radius: 25px/19px;
+  border-radius: 0;
   box-shadow: 0 4px 0 0 darken($love, 25%);
 }
 
@@ -137,7 +137,7 @@ input[type="color"] {
 .admin-controls,
 .user-primary-navigation,
 .list-controls {
-  background: $sky;
+  background: $primary-medium;
   border-radius: 20px 20px 0 0;
   padding: 1em 1em 0.5em 1em;
   .select-kit.combo-box .combo-box-header > .d-icon {
@@ -195,7 +195,7 @@ input[type="color"] {
   color: $secondary;
   margin-right: 0.25em;
   &:hover {
-    background: $water;
+    background: $quaternary;
     color: $secondary;
   }
   &.active {
