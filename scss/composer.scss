@@ -52,11 +52,11 @@
 }
 #reply-control .display-edit-reason .d-icon {
   padding-top: 0.4em;
-  color: $night;
+  color: $tertiary;
 }
 
 #reply-control .reply-to .composer-action-title .d-icon {
-  color: $night;
+  color: $tertiary;
   padding-top: 0.2em;
 }
 
@@ -108,7 +108,7 @@
   .reply-to {
     border-radius: 40px 40px 0 0;
     margin-top: 0;
-    background: $sky;
+    background: #6e8387;
     padding: 0.5em 0;
     margin-bottom: 15px;
     .reply-details {
