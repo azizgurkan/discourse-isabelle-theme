@@ -44,10 +44,10 @@ div.menu-links-header .menu-links-row {
     }
     &:focus,
     &:hover {
-      background: #263238;
+      background: #fcca46;
       border-radius: 10px 10px 0 0;
       border-color: transparent;
-      color: $gold;
+      color: $secondary;
     }
   }
 }
